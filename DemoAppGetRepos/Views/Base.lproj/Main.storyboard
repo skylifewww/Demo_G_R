@@ -25,7 +25,7 @@
                                 <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RepoCell" rowHeight="246" id="AeE-Hp-pfq" customClass="RepoCell" customModule="DemoAppGetRepos">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RepoCell" rowHeight="246" id="AeE-Hp-pfq" customClass="RepoCell" customModule="DemoAppGetRepos">
                                         <rect key="frame" x="0.0" y="28" width="343" height="246"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AeE-Hp-pfq" id="yF3-Ew-CTL">
@@ -160,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="41G-Z6-uvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="872.5" y="117.5"/>
+            <point key="canvasLocation" x="1361" y="118"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="M4H-IY-F2E">
@@ -179,7 +179,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kv6-J6-Au9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3" y="118"/>
+            <point key="canvasLocation" x="-236" y="117"/>
         </scene>
     </scenes>
 </document>

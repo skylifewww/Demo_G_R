@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C6F7C3120480A9D002F4C62 /* ActivityIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F7C2F20480A9D002F4C62 /* ActivityIndicatorCell.swift */; };
+		2C6F7C3220480A9D002F4C62 /* ActivityIndicatorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F7C3020480A9D002F4C62 /* ActivityIndicatorCell.xib */; };
 		2C90E6C220471B68005EC19F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90E6C120471B68005EC19F /* AppDelegate.swift */; };
 		2C90E6C420471B68005EC19F /* ReposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90E6C320471B68005EC19F /* ReposViewController.swift */; };
 		2C90E6C720471B68005EC19F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C90E6C520471B68005EC19F /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C6F7C2F20480A9D002F4C62 /* ActivityIndicatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorCell.swift; sourceTree = "<group>"; };
+		2C6F7C3020480A9D002F4C62 /* ActivityIndicatorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityIndicatorCell.xib; sourceTree = "<group>"; };
 		2C90E6BE20471B68005EC19F /* DemoAppGetRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAppGetRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C90E6C120471B68005EC19F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C90E6C320471B68005EC19F /* ReposViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				2C90E6D720472086005EC19F /* RepoCell.swift */,
 				2C90E6D9204720E3005EC19F /* GithubRepo.swift */,
 				2C90E6DB2047213E005EC19F /* GitHubRepoModel.swift */,
+				2C6F7C2F20480A9D002F4C62 /* ActivityIndicatorCell.swift */,
+				2C6F7C3020480A9D002F4C62 /* ActivityIndicatorCell.xib */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -208,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6F7C3220480A9D002F4C62 /* ActivityIndicatorCell.xib in Resources */,
 				2C90E6CC20471B68005EC19F /* LaunchScreen.storyboard in Resources */,
 				2C90E6C920471B68005EC19F /* Assets.xcassets in Resources */,
 				2C90E6C720471B68005EC19F /* Main.storyboard in Resources */,
@@ -285,6 +292,7 @@
 				2C90E6C420471B68005EC19F /* ReposViewController.swift in Sources */,
 				2C90E6DF204722E9005EC19F /* RepoWebManager.swift in Sources */,
 				2C90E6DC2047213E005EC19F /* GitHubRepoModel.swift in Sources */,
+				2C6F7C3120480A9D002F4C62 /* ActivityIndicatorCell.swift in Sources */,
 				2C90E6E120472314005EC19F /* Constants.swift in Sources */,
 				2C90E6C220471B68005EC19F /* AppDelegate.swift in Sources */,
 				2C90E6D820472086005EC19F /* RepoCell.swift in Sources */,
